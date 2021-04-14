@@ -1,0 +1,27 @@
+baseURL = "/"
+publishDir = "docs"
+languageCode = "en-us"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+title = "Soumyadip's Blog"
+footnoteReturnLinkContents = "↩"
+theme = "base16"
+sectionPagesMenu = "main"
+pluralizeListTitles = "false"
+googleAnalytics = "UA-127474557-1"
+pygmentsuseclasses = "true"
+
+[author]
+  name = "Soumyadip Sarkar"
+  email = "soumya997.sarkar@gmail.com"
+
+[params]
+  description = "Soumyadip's personal website"
+  images = ["img/hero.jpg"]
+
+  [params.social]
+    twitter = "Soumya997Sarkar"
+    github = "soumya997"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
